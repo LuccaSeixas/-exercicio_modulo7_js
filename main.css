@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ebe8e3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 64px;
+}
+
+form input,
+form button{
+    display: block;
+    margin-bottom: 8px;
+    width: 640px;
+    padding: 8px;
+}
+
+form button{
+    padding: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button{
+    text-transform: uppercase;
+    border: none;
+    background-color:#ddbb72;
+}
+
+form button:hover{
+    background-color:#e9d09b;
+}
+
+.success-message{
+    padding: 8px;
+    background-color: rgb(48, 199, 61);
+    display: none;
+}
+
+.fail-message{
+    padding: 8px;
+    background-color: rgb(216, 55, 55);
+    display: none;
+}
+
+.equal-message{
+    padding: 8px;
+    background-color: rgb(253, 250, 40);
+    display: none;
+}
